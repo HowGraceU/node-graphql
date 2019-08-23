@@ -1,5 +1,5 @@
 # node-graphql
-简单的 graphql 服务
+基于 apollo 实现的简单的 graphql 服务
 
 使用以下gql查询数据
 ```js
@@ -23,7 +23,7 @@ mutation AddDog {
 
 使用以下gql查询异步数据
 ```js
-query{
+{
   books{
     title
     author
